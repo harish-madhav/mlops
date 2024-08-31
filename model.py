@@ -43,7 +43,7 @@ print("Validation images:", validation_generator.samples)
 
 
 # Train the model
-model.fit(train_generator, epochs=10, validation_data=validation_generator)
+model.fit(train_generator, epochs=15, validation_data=validation_generator)
 
 # Save the model
 model.save('mood_detection_model.h5')
